@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		993725C41B0C2AF2001B5FA4 /* DateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 993725C31B0C2AF2001B5FA4 /* DateTime.m */; };
+		993725CA1B0C321A001B5FA4 /* UniqueDeviceID.m in Sources */ = {isa = PBXBuildFile; fileRef = 993725C81B0C321A001B5FA4 /* UniqueDeviceID.m */; };
+		993725CD1B0C344F001B5FA4 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 993725CC1B0C344F001B5FA4 /* KeychainItemWrapper.m */; };
+		993725D01B0C34C1001B5FA4 /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 993725CF1B0C34C1001B5FA4 /* Colors.m */; };
+		993725D31B0C355A001B5FA4 /* StringUtililies.m in Sources */ = {isa = PBXBuildFile; fileRef = 993725D21B0C355A001B5FA4 /* StringUtililies.m */; };
+		993725D61B0C362B001B5FA4 /* CountryCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 993725D51B0C362B001B5FA4 /* CountryCodes.m */; };
+		993725D91B0C3769001B5FA4 /* NSDictionary+SBJSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 993725D81B0C3769001B5FA4 /* NSDictionary+SBJSONHelper.m */; };
+		993725DF1B0C37DF001B5FA4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 993725DE1B0C37DF001B5FA4 /* Reachability.m */; };
+		993725E21B0C3835001B5FA4 /* TimeSlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 993725E11B0C3835001B5FA4 /* TimeSlot.m */; };
+		993725E51B0C3A3C001B5FA4 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 993725E41B0C3A3C001B5FA4 /* UIImage+Blur.m */; };
+		993725E81B0C3A4D001B5FA4 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 993725E71B0C3A4D001B5FA4 /* NSDate+Utilities.m */; };
+		993725F01B0C3AE4001B5FA4 /* UIColor+S3.m in Sources */ = {isa = PBXBuildFile; fileRef = 993725ED1B0C3AE4001B5FA4 /* UIColor+S3.m */; };
+		993725F11B0C3AE4001B5FA4 /* UIFont+S3.m in Sources */ = {isa = PBXBuildFile; fileRef = 993725EF1B0C3AE4001B5FA4 /* UIFont+S3.m */; };
+		993725F41B0C3B0B001B5FA4 /* UIView+S3.m in Sources */ = {isa = PBXBuildFile; fileRef = 993725F31B0C3B0B001B5FA4 /* UIView+S3.m */; };
+		993725F71B0C3B31001B5FA4 /* RSVConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 993725F61B0C3B31001B5FA4 /* RSVConfig.m */; };
+		993725FA1B0C3B65001B5FA4 /* CreditCardCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 993725F91B0C3B65001B5FA4 /* CreditCardCheck.m */; };
 		99B6A16F1B043F9400F7E78E /* ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B6A16E1B043F9400F7E78E /* ProjectTests.m */; };
 		99B6A18E1B04410A00F7E78E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B6A17B1B04410A00F7E78E /* AppDelegate.m */; };
 		99B6A18F1B04410A00F7E78E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99B6A17C1B04410A00F7E78E /* LaunchScreen.xib */; };
@@ -26,6 +42,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		993725C21B0C2AF2001B5FA4 /* DateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTime.h; sourceTree = "<group>"; };
+		993725C31B0C2AF2001B5FA4 /* DateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTime.m; sourceTree = "<group>"; };
+		993725C71B0C321A001B5FA4 /* UniqueDeviceID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniqueDeviceID.h; sourceTree = "<group>"; };
+		993725C81B0C321A001B5FA4 /* UniqueDeviceID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniqueDeviceID.m; sourceTree = "<group>"; };
+		993725CB1B0C344F001B5FA4 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		993725CC1B0C344F001B5FA4 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		993725CE1B0C34C1001B5FA4 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
+		993725CF1B0C34C1001B5FA4 /* Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colors.m; sourceTree = "<group>"; };
+		993725D11B0C355A001B5FA4 /* StringUtililies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtililies.h; sourceTree = "<group>"; };
+		993725D21B0C355A001B5FA4 /* StringUtililies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtililies.m; sourceTree = "<group>"; };
+		993725D41B0C362B001B5FA4 /* CountryCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCodes.h; sourceTree = "<group>"; };
+		993725D51B0C362B001B5FA4 /* CountryCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCodes.m; sourceTree = "<group>"; };
+		993725D71B0C3769001B5FA4 /* NSDictionary+SBJSONHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SBJSONHelper.h"; sourceTree = "<group>"; };
+		993725D81B0C3769001B5FA4 /* NSDictionary+SBJSONHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SBJSONHelper.m"; sourceTree = "<group>"; };
+		993725DD1B0C37DF001B5FA4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		993725DE1B0C37DF001B5FA4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		993725E01B0C3835001B5FA4 /* TimeSlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeSlot.h; sourceTree = "<group>"; };
+		993725E11B0C3835001B5FA4 /* TimeSlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeSlot.m; sourceTree = "<group>"; };
+		993725E31B0C3A3C001B5FA4 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		993725E41B0C3A3C001B5FA4 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		993725E61B0C3A4D001B5FA4 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		993725E71B0C3A4D001B5FA4 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		993725EC1B0C3AE4001B5FA4 /* UIColor+S3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+S3.h"; sourceTree = "<group>"; };
+		993725ED1B0C3AE4001B5FA4 /* UIColor+S3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+S3.m"; sourceTree = "<group>"; };
+		993725EE1B0C3AE4001B5FA4 /* UIFont+S3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+S3.h"; sourceTree = "<group>"; };
+		993725EF1B0C3AE4001B5FA4 /* UIFont+S3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+S3.m"; sourceTree = "<group>"; };
+		993725F21B0C3B0B001B5FA4 /* UIView+S3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+S3.h"; sourceTree = "<group>"; };
+		993725F31B0C3B0B001B5FA4 /* UIView+S3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+S3.m"; sourceTree = "<group>"; };
+		993725F51B0C3B31001B5FA4 /* RSVConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSVConfig.h; sourceTree = "<group>"; };
+		993725F61B0C3B31001B5FA4 /* RSVConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSVConfig.m; sourceTree = "<group>"; };
+		993725F81B0C3B65001B5FA4 /* CreditCardCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardCheck.h; sourceTree = "<group>"; };
+		993725F91B0C3B65001B5FA4 /* CreditCardCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCardCheck.m; sourceTree = "<group>"; };
 		99B6A14F1B043F9300F7E78E /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B6A1681B043F9400F7E78E /* ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B6A16D1B043F9400F7E78E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,9 +106,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		993725FB1B0C3BF1001B5FA4 /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logo;
+			sourceTree = "<group>";
+		};
+		993725FC1B0C3BF1001B5FA4 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		993725FD1B0C3BF1001B5FA4 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
 		994417591B0C21E000FCF41E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				993725FB1B0C3BF1001B5FA4 /* Logo */,
+				993725FC1B0C3BF1001B5FA4 /* Icons */,
+				993725FD1B0C3BF1001B5FA4 /* Backgrounds */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -133,6 +205,8 @@
 				99B6A1811B04410A00F7E78E /* Info.plist */,
 				99B6A1821B04410A00F7E78E /* main.m */,
 				99B6A1831B04410A00F7E78E /* PrefixHeader.pch */,
+				993725F51B0C3B31001B5FA4 /* RSVConfig.h */,
+				993725F61B0C3B31001B5FA4 /* RSVConfig.m */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -179,6 +253,36 @@
 		99B6A18A1B04410A00F7E78E /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				993725F81B0C3B65001B5FA4 /* CreditCardCheck.h */,
+				993725F91B0C3B65001B5FA4 /* CreditCardCheck.m */,
+				993725F21B0C3B0B001B5FA4 /* UIView+S3.h */,
+				993725F31B0C3B0B001B5FA4 /* UIView+S3.m */,
+				993725EC1B0C3AE4001B5FA4 /* UIColor+S3.h */,
+				993725ED1B0C3AE4001B5FA4 /* UIColor+S3.m */,
+				993725EE1B0C3AE4001B5FA4 /* UIFont+S3.h */,
+				993725EF1B0C3AE4001B5FA4 /* UIFont+S3.m */,
+				993725E61B0C3A4D001B5FA4 /* NSDate+Utilities.h */,
+				993725E71B0C3A4D001B5FA4 /* NSDate+Utilities.m */,
+				993725E31B0C3A3C001B5FA4 /* UIImage+Blur.h */,
+				993725E41B0C3A3C001B5FA4 /* UIImage+Blur.m */,
+				993725E01B0C3835001B5FA4 /* TimeSlot.h */,
+				993725E11B0C3835001B5FA4 /* TimeSlot.m */,
+				993725DD1B0C37DF001B5FA4 /* Reachability.h */,
+				993725DE1B0C37DF001B5FA4 /* Reachability.m */,
+				993725CB1B0C344F001B5FA4 /* KeychainItemWrapper.h */,
+				993725CC1B0C344F001B5FA4 /* KeychainItemWrapper.m */,
+				993725C71B0C321A001B5FA4 /* UniqueDeviceID.h */,
+				993725C81B0C321A001B5FA4 /* UniqueDeviceID.m */,
+				993725C21B0C2AF2001B5FA4 /* DateTime.h */,
+				993725C31B0C2AF2001B5FA4 /* DateTime.m */,
+				993725CE1B0C34C1001B5FA4 /* Colors.h */,
+				993725CF1B0C34C1001B5FA4 /* Colors.m */,
+				993725D11B0C355A001B5FA4 /* StringUtililies.h */,
+				993725D21B0C355A001B5FA4 /* StringUtililies.m */,
+				993725D41B0C362B001B5FA4 /* CountryCodes.h */,
+				993725D51B0C362B001B5FA4 /* CountryCodes.m */,
+				993725D71B0C3769001B5FA4 /* NSDictionary+SBJSONHelper.h */,
+				993725D81B0C3769001B5FA4 /* NSDictionary+SBJSONHelper.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -304,7 +408,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				993725F41B0C3B0B001B5FA4 /* UIView+S3.m in Sources */,
+				993725E21B0C3835001B5FA4 /* TimeSlot.m in Sources */,
+				993725F01B0C3AE4001B5FA4 /* UIColor+S3.m in Sources */,
+				993725FA1B0C3B65001B5FA4 /* CreditCardCheck.m in Sources */,
+				993725F11B0C3AE4001B5FA4 /* UIFont+S3.m in Sources */,
+				993725D91B0C3769001B5FA4 /* NSDictionary+SBJSONHelper.m in Sources */,
+				993725D31B0C355A001B5FA4 /* StringUtililies.m in Sources */,
+				993725CA1B0C321A001B5FA4 /* UniqueDeviceID.m in Sources */,
+				993725D01B0C34C1001B5FA4 /* Colors.m in Sources */,
+				993725DF1B0C37DF001B5FA4 /* Reachability.m in Sources */,
+				993725E51B0C3A3C001B5FA4 /* UIImage+Blur.m in Sources */,
+				993725E81B0C3A4D001B5FA4 /* NSDate+Utilities.m in Sources */,
+				993725D61B0C362B001B5FA4 /* CountryCodes.m in Sources */,
+				993725C41B0C2AF2001B5FA4 /* DateTime.m in Sources */,
+				993725F71B0C3B31001B5FA4 /* RSVConfig.m in Sources */,
 				99B6A1931B04410A00F7E78E /* main.m in Sources */,
+				993725CD1B0C344F001B5FA4 /* KeychainItemWrapper.m in Sources */,
 				99B6A18E1B04410A00F7E78E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
